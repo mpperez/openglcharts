@@ -1,0 +1,1 @@
+/home/rocabo/PROYECTOS/SVN/oglgraph/qopengl2dcharts.h
