@@ -1,1 +1,44 @@
-/home/rocabo/PROYECTOS/SVN/oglgraph/opengl2dchartsbuildinfo.h.in
+/*(C) Copyright 2017 mpperez
+ Author: mpperez
+This library is free software; you can redistribute it and/or modify it under
+the terms of the GNU Lesser General Public License as published by the
+Free Software Foundation; either version 2.1 of the License, or (at your
+option) any later version. (See <http://www.gnu.org/copyleft/lesser.html>.)
+
+This library is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with this library;
+*/
+
+/** \file
+  \brief Building information. Generated automatically by cmake depending on compilation settings.
+	\date 05-2010
+	\author Marcos Perez*/
+
+/// @ingroup graph2d
+
+#ifndef OPENGL2DCHARTSBUILDINFO_H
+#define OPENGL2DCHARTSBUILDINFO_H
+
+#ifndef @TARGET_VERSION@
+#define @TARGET_VERSION@
+#endif
+
+#ifdef USE_QT
+#include "qopengl2dcharts.h"
+#endif
+
+#ifdef USE_X
+#include "xopengl2dcharts.h"
+#endif
+
+#ifdef USE_W
+#include "wopengl2dcharts.h"
+#endif
+
+
+#endif // OPENGL2DCHARTSBUILDINFO_H
