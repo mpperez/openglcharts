@@ -1,1 +1,1 @@
-/home/rocabo/PROYECTOS/SVN/oglgraph/sampleQT2D.cpp
+/home/rocabo/Escritorio/PROYECTOS/SVN/oglgraph/sampleQT2D.cpp
